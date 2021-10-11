@@ -1,0 +1,11 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  /* taken from google font: Regular 400, Bold 700 */
+  /* copy the <link> tag and paste inside index.html in public folder */
+  font-family: 'Encode Sans Expanded', sans-serif; 
+}
