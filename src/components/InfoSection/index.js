@@ -18,7 +18,7 @@ import {
 } from './InfoStyles';
 
 
-const InfoSection = ({lightBg, id, imgStart, firstText, lightText, heading, darkText, subtitle, buttonTag, img, alt, primary, dark, dark2}) => {
+const InfoSection = ({lightBg, id, imgStart, firstText, lightText, heading, darkText, subtitle, buttonTag, img, alt, primary, dark}) => {
    return (
       <>
          <InfoContainer lightBg={lightBg} id={id}>
@@ -40,7 +40,6 @@ const InfoSection = ({lightBg, id, imgStart, firstText, lightText, heading, dark
                               exact={true}
                               primary={primary ? 1 : 0}
                               dark={dark ? 1 : 0}
-                              dark2={dark2 ? 1 : 0}
 
                            >{buttonTag}</Button>
                         </BtnWrap>

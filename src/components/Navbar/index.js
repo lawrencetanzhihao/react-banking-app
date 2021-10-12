@@ -31,12 +31,26 @@ const Navbar = ({ toggle }) => {
 
                   <NavMenu>
                      <NavItem>
-                        <NavLinks>
+                        <NavLinks
+                           to="about"
+                           duration={400}
+                           smooth={true}
+                           spy={true} // tells us which one we're clicking on 
+                           exact="true"
+                           offset={-80} //match the margin-top value of navbar
+                        >
                            About
                         </NavLinks>
                      </NavItem>
                      <NavItem>
-                        <NavLinks>
+                        <NavLinks
+                           to="services"
+                           duration={400}
+                           smooth={true}
+                           spy={true}
+                           exact="true"
+                           offset={-80} 
+                        >
                            Services
                         </NavLinks>
                      </NavItem>
