@@ -53,7 +53,7 @@ const MainSection = () => {
                      onMouseEnter={onHover}
                      onMouseLeave={onHover}
                   >
-                     Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                     Apply Now {hover ? <ArrowForward /> : <ArrowRight />}
                   </Button>
                </MainBtnWrapper>
 

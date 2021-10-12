@@ -40,11 +40,6 @@ const Navbar = ({ toggle }) => {
                            Services
                         </NavLinks>
                      </NavItem>
-                     <NavItem>
-                        <NavLinks>
-                           Sign Up
-                        </NavLinks>
-                     </NavItem>
                   </NavMenu>
 
                   <NavBtn>
